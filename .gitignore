@@ -1,0 +1,4 @@
+# Various editors
+.idea/*
+.vscode/*
+react_app/node_modules/*

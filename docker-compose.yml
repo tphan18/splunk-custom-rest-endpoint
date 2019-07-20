@@ -1,0 +1,14 @@
+version: "3.4"
+
+services:
+  splunk:
+    container_name: splunk
+    build:
+      context: .
+    ports:
+      - 8000:8000
+    environment:
+      - SPLUNK_START_ARGS=--accept-license
+      - SPLUNK_PASSWORD=changeme
+    volumes:
+      - ./sony_code_react_app:/apps/sony_code_react_app

@@ -1,0 +1,7 @@
+.gitlab
+docs
+test
+.gitignore
+.gitlab-ci.yml
+.git
+react_app
