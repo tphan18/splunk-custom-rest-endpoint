@@ -23,7 +23,7 @@ export default class App extends Component {
         term.write('\r\n$ ')
       }
 
-      term.writeln('Welcome to my server')
+      term.writeln('Welcome to Splunk server')
       term.writeln('Type some keys and commands to play around.')
       term.writeln('')
       term.prompt()

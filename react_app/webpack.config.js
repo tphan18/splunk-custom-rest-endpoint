@@ -34,5 +34,14 @@ module.exports = {
       filename: '[name].css',
       chunkFilename: '[id].css'
     })
-  ]
+  ],
+  entry: './src/index.js',
+  optimization: {
+    splitChunks: {
+      chunks: 'all'
+    }
+  },
+  output: {
+    jsonpFunction: "wpJsonpFlightsWidget"
+  }
 }
