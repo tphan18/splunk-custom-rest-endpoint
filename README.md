@@ -1,3 +1,5 @@
+# DEMO
+
 ```
 $ docker exec -it splunk /bin/bash
 ansible@76bb13bc216e:/apps$ cd $SPLUNK_HOME/etc/apps/
