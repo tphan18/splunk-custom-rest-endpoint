@@ -20,3 +20,9 @@ $ sudo $SPLUNK_HOME/bin/splunk restart
 ```
 http://127.0.0.1:8000/en-US/splunkd/__raw/services/my_custom_endpoint
 ```
+
+4. Documentation links
+
+- https://dev.splunk.com/enterprise/docs/developapps/customrestendpoints/#Types-of-custom-REST-handlers
+- https://dev.splunk.com/enterprise/docs/developapps/customrestendpoints/customrestscript/
+- https://conf.splunk.com/files/2016/slides/extending-splunks-rest-api-for-fun-and-profit.pdf
