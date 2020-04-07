@@ -12,4 +12,4 @@ services:
       - SPLUNK_START_ARGS=--accept-license
       - SPLUNK_PASSWORD=changeme
     volumes:
-      - ./sony_code_react_app:/apps/sony_code_react_app
+      - ./custom_rest_app:/apps/custom_rest_app
