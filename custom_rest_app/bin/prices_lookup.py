@@ -25,7 +25,6 @@ class MyLookup:
         if code not in table:
             return []
 
-        time.sleep(2)
         return [name + " " + str(self.event_id) for name in table.get(code, [])]
 
 
