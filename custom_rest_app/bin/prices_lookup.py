@@ -47,7 +47,6 @@ def main():
     for result in r:
         if result[codeField]:
             spam = MyLookup()
-
             for name in spam.rlookup(result[codeField]):
                 result["users"] = name
                 w.writerow(result)
